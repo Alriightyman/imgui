@@ -19,7 +19,7 @@ project "ImGui"
                 "imgui_demo.cpp"
         }
 
-        fileter "system:windows"
+        filter "system:windows"
                 systemversion "latest"
                 cppdialect "C++17"
                 staticruntime "On"
